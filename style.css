@@ -3,14 +3,9 @@
 }
 
 
-.orange-bg{
-    background-color: #fceae8;
-    border-radius: 10px;
-}
-
-
-.carousel-item{
-    padding: 20px 40px;
+.bg-color{
+   background-color:  #fceae8;
+   border-radius: 10px;
 }
 
 
@@ -19,70 +14,47 @@
 }
 
 
-.buy-now-button{
+.btn-button{
+    color: #fff;
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-
-   color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
-
     cursor: pointer;
 }
 
 
-.cat1, .cat2, .cat3{
-    padding: 10px 30px;
-    border-radius: 10px;
+.carousel-item{
+    padding: 20px 40px;
 }
 
 
-.cat1{
-    background-color: orange;
+.categories{
+    color: #fff;
 }
-
-
-.cat2{
-    background-color: orchid;
-}
-
-
-.cat3{
-    background-color: blue;
-}
-
-
-.categories h1{
-    color: white;
-}
-
 
 .categories img{
     width: 100px;
 }
 
-
-.card{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+.cat-1 {
+    background-color: orange;
 }
 
+.cat-2 {
+    background-color: orchid;
+}
 
-.card-footer{
-    background-color: white;
-    border-top: none;
+.cat-3 {
+    background-color: blue;
+}
+
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 
 #subscribe{
     height: 300px;
-}
-
-
-#subscribe h6{
-    color: gray;
-}
-footer{
-    text-align: center;
 }
